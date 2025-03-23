@@ -62,10 +62,10 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: {
-      'zh-TW': ['zh-Hant', 'en'],
-      'zh-HK': ['zh-Hant', 'en'],
-      zh: ['zh-Hans', 'en'],
-      default: ['en'],
+      'zh-TW': ['zh-Hant', 'pt-PT'],
+      'zh-HK': ['zh-Hant', 'pt-PT'],
+      zh: ['zh-Hans', 'pt-PT'],
+      default: ['pt-PT'],
     },
     fallbackNS: 'translation',
     ns: ['translation'],
